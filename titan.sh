@@ -25,6 +25,8 @@ fi
 	
 
 # 读取加载身份码信息
+password_protect
+
 read -p "输入你的身份码: " id
 
 # 让用户输入想要创建的容器数量
